@@ -30,10 +30,10 @@
        </li> <li class="nav-item">
        <a class="nav-link" href="#Kapitel3">THEME 3</a>
        </li> <li class="nav-item">
-       <a class="nav-link" href="Index2.html">Page 2</a>
+       <a class="nav-link" href="#Index2.html">Page 2</a>
        </li>
        <li class="nav-item">
-       <a class="nav-link" href="#Impressum">IMPRESSUM </a>
+       <a class="nav-link" href="#Index">INDEX </a>
        </li>
     </ul> 
    
@@ -257,30 +257,50 @@
 
 
 
-
 <!--- Footer -->
-<footer> <h2 id="Impressum"></h2>
+<footer> <h2 id="Index"></h2>
     <div class="container-fluid padding">
-     <div class="row text-center paggind">
-    <div class="col-12">
-        <h2>Impressum</h2>
-		<p>Irgendwas</p>
-		<p>Irgendwas</p>
-		<p>Irgendwas</p>
-		<p>Irgendwas</p>
-       <br>
-		  <br>
-		  <hr class="light">
-		 <img src="img/Hochschule%20M%C3%BCnchen.png">
-        <h5>&copy; Daniil Tyves</h5>
+    <div class="row text center">
+        <div class="col-md-4">
+        <img src="img/Hochschule%20M%C3%BCnchen.png">
+            <hr class="light">
+            <p>
+            sdasds</p>
+            <p>
+            sdasds</p>
+            <p>
+            sdasds</p>
+            <p>
+            sdasds</p>
         
-		 </div>
-		</div>
+        </div>
+        <div class="col-md-4">
+        <hr class="light">
+            <h5>INDEX</h5>
+            <br>
+            <br>
             
-       
+            <hr class="light">
+            <p>
+            sdasds</p>
+            <p>
+            sdasds</p>
+            <p>
+            sdasds</p>
+            <p>
+            sdasds</p>
         </div>
 
-  
+    <div class="col-12">
+        <hr class="light">
+        <h5>&copy; Daniil Tyves</h5>
+        
+        </div>
+        </div>
+        
+    
+    
+    </div>
     
     
     
@@ -288,6 +308,7 @@
     
    
     </footer>
+
 
 
 </body>
