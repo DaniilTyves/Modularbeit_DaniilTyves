@@ -8,36 +8,35 @@ html, body {
 }
 .navbar {
     padding: .8rem;
+	font-size: 1.1em;
+	
 }
+.navbar p {padding-top: .5rem;}
 .navbar-nav li { padding-left: 1px;}
 
 .nav-link {
     font-size: 1.1em !important;
 }
     
-.navbar-toggler { left: auto !important;}
+.navbar-toggler { left: auto !important;
+height: auto;}
    
+
+
+
+
+
+.carousel-inner img {width: 100%;
+height :20%;
+ margin: auto;
 }
-
-.btn {background-color: darkblue;
-border: 2px;
-	
-border-color: dimgrey;}
-.btn:hover {
-	background-color: dimgrey;
-}
-
-
-
-.carousel-inner img {width: 50%;
-height :50%;
- padding-left: 20px;}
 .carousel {width: auto;
-height:auto; }
-.carousel-fade {transition: -webkit-transform 0.5s ease;
+height:auto;
+position: relative;}
+.carousel-fade {transition: transform 0.5s ease;
   transition: transform 0.5s ease;
-  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
-  -webkit-backface-visibility: visible;
+  transition: transform 0.5s ease, transform 0.5s ease;
+  backface-visibility: visible;
   backface-visibility: visible;}
 
 
@@ -100,7 +99,40 @@ figure {
 }
 
 
-				
+________
+
+
+.container {
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin-left: -65px;
+  margin-top: -20px;
+  width: 180px;
+  height: 30px;
+  text-align: center;
+}
+button {
+  outline:none;
+  height: 30px;
+  text-align: center;
+  width: 180px;
+  border-radius:60px;
+  background: lightgrey;
+  border: 2px solid;
+  color:skyblue;
+  letter-spacing:1px;
+  text-shadow:0;
+  
+ 
+  
+  }
+button:hover {
+	color: dimgrey;
+	background-color: aliceblue;
+
+}
+
 
 
 
